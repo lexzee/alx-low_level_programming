@@ -15,6 +15,6 @@ int main(void)
 	putchar(fig);
 
 	putchar('\n');
-	
+
 	return (0);
 }
