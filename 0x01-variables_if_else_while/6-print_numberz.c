@@ -8,7 +8,7 @@ int main(void)
 {
 	int figure;
 
-	for (figure=0; figure<10; figure++)
+	for (figure = 0; figure < 10; figure++)
 	putchar(figure + '0');
 
 	putchar('\n');

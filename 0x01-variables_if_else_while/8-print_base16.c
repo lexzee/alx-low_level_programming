@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-		char fig;
-	
-		for (fig=0; fig<=9; fig++)
-		putchar(fig+'0');
+	char fig;
 
-		for (fig='a'; fig<='f'; fig++)
-		putchar(fig);
+	for (fig = 0; fig <= 9; fig++)
+	putchar(fig + '0');
 
-		putchar('\n');
+	for (fig = 'a'; fig <= 'f'; fig++)
+	putchar(fig);
+
+	putchar('\n');
 	
 	return (0);
 }

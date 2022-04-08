@@ -4,19 +4,19 @@
  *
  * Return: Always 0 (Success)
  */
- int main(void)
- {
- 	char c;
- 	char p;
- 	
- 	for (c='a'; c<='z'; c++)
- 	{
- 		putchar(c);
- 	}
- 	for (p='A'; p<='Z'; p++)
- 		putchar(p);
+int main(void)
+{
+	char c;
+	char p;
 
- 	putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	for (p='A'; p<='Z'; p++)
+		putchar(p);
 
- 	return (0);
- }
+	putchar('\n');
+
+	return (0);
+}
