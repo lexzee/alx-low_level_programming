@@ -1,8 +1,12 @@
 #include "main.h"
 /**
-*main - return 1 and print + if n is greater than 0, return 0 and print 0 if n is 0, return -1 and print - if n is less than 0
+* print_sign - Determines if the input number
+* greater, iqual or less than zero.
 *
-*Return : Always zero (success)
+* @n: The input number as an integer.
+*
+* Return: 1 is greater than zero. 0 is zero.
+* -1 is less than zero.
 */
 int print_sign(int n)
 {
@@ -16,7 +20,7 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
-	else 
+	else
 	{
 		_putchar(48);
 		return (0);
