@@ -1,14 +1,22 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-*main - prints alphabet 10x
+* print_alphabet_x10 - Prints the alphabet 10 times.
 *
-*return: always 0.
+* Return: Always 0
 */
 
-
-int main()
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+	int i, a;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (a = 97; a <= 122; a++)
+		{
+			_putchar(a);
+		}
+		_putchar('\n');
+	}
 }
